@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="../css/grafico.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- sidebar (inicio) -->
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <img src="../img/LOGO.svg" alt="">
+                    <div class="logo_name">Quinta do Ypuã</div>
+                </div>
+                <i class='bx bx-menu' id='btn'></i>
+            </div>
+
+            <div class="src">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search..">
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="../index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="link_name">Início</span>
+                    </a>
+                    <span class="tooltip">Início</span>
+                </li>
+                <li>
+                    <a href="./check.html">
+                        <i class="fa-solid fa-hotel"></i>
+                        <span class="link_name">Check-in</span>
+                    </a>
+                    <span class="tooltip">Check-in</span>
+                </li>
+         
+                <li>
+                    <a href="./reservas.html">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span class="link_name">Reservas</span>
+                    </a>
+                    <span class="tooltip">Reservas</span>
+                </li>
+
+                <li>
+                    <a href="./graficoOcupacao.html">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span class="link_name">Painel</span>
+                    </a>
+                    <span class="tooltip">Painel</span>
+                </li>
+            </ul>
+
+            <!-- sidebar(fim) -->
+
+
+        </div>
+
+        <div class="home_content">
+            <div class="text">Painel</div>
+
+
+            <div class="info">
+                <div class="info1">
+                    <p class="titulo">Total Reservas</p>
+                    <p class="subtitulo">1023</p>
+                    
+
+                </div>
+
+                <div class="info2">
+                    <p class="titulo">Faturamento</p>
+                    <p class="subtitulo">R$70.000</p>
+
+                </div>
+
+                <div class="info3">
+
+                    <p class="titulo">Total Reservas</p>
+                    <p class="subtitulo">345</p>
+                    
+                </div>
+            </div>
+            
+            <div class="grafico">
+
+                <div>
+                    <canvas id="myChart" style="height: 100%; width: 100%;"></canvas>
+                  </div>
+
+
+            </div>
+    
+        </div>
+
+      
+
+        <script src="../app.js"></script>
+        <script src="../js/grafico.js"></script>
+
+</body>
+
+</html>
