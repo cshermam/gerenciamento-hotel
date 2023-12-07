@@ -293,7 +293,6 @@ width: 50%;
        border-radius: 10px;
        margin-bottom: 20px;
        margin-left: 20px;
-       flex-direction: column;
        border: none;
        outline: none;
        box-shadow:  0 5px 10px rgba(0, 0, 0, .1);
