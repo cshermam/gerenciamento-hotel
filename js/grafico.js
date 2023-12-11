@@ -1,4 +1,4 @@
-const ctx = document.getElementById('myChart');
+sconst ctx = document.getElementById('myChart');
 
 new Chart(ctx, {
     type: 'bar',
@@ -16,7 +16,7 @@ new Chart(ctx, {
             borderWidth: 1
         }, {
            
-            label: 'Total P',
+            label: 'Total Pessoas',
             data: [345, 210,196,150,248,562 ],
             borderWidth: 1,
         }]
